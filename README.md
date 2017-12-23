@@ -7,18 +7,17 @@ Behavior LookAtPoint powoduje, że dron obraca się frontem w kierunku zadanego 
     tak, aby tworzyły poniższe drzewo:
     
         ~/workspace/ros/aerostack_catkin_ws/src/
-    	      -aerostack_stack
-    	    	-behavior_look_at_point
-    		    	-CMakeLists.txt
-    		    	-package.xml
-    		    	-launch
-    			    	-behavior_look_at_point.launch
+            -behavior_look_at_point
+    		    -CMakeLists.txt
+                -package.xml
+                -launch
+                    -behavior_look_at_point.launch
     			-src
-    					-include
-    						-behavior_look_at_point.h
-    					-source
-	    					-behavior_look_at_point.cpp
-    						-behavior_look_at_point_main.cpp
+                    -include
+                        -behavior_look_at_point.h
+                    -source
+                        -behavior_look_at_point.cpp
+                        -behavior_look_at_point_main.cpp
 
 2. Przeprowadzić kompilację catkin `~/workspace/ros/aerostack_catkin_ws/$ catkin_make`
 3. Edytować plik `simulated_quadrotor_basic.sh` - W skrypcie uruchamiającym należy dokleić na końcu poniższe linie:
