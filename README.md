@@ -1,4 +1,4 @@
-# TakeOff2
+# Behavior LookAtPoint
 Paczka tworzy behavior używany przez Aerostack (oprogramowanie grupy Vision4UAV: https://github.com/Vision4UAV/Aerostack)
 Behavior LookAtPoint powoduje, że dron obraca się frontem w kierunku zadanego punktu
 ### Instalacja ###
@@ -36,7 +36,6 @@ Behavior LookAtPoint powoduje, że dron obraca się frontem w kierunku zadanego 
     W sekcji `behavior_descriptors` należy dokleić poniższe linie:
 	    
 		
-          - behavior: TAKE_OFF2
           - behavior: LOOK_AT_POINT
 		    incompatible_lists: [motion_behaviors]
             capabilities: [SETPOINT_BASED_FLIGHT_CONTROL]
