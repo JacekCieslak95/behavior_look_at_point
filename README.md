@@ -53,11 +53,17 @@ Behavior LookAtPoint powoduje, że dron obraca się frontem w kierunku zadanego 
 
 ### Przyjmowane argumenty ###
 Behavior przyjmuje argumenty:
+    
     coordinates=[x,y,z]
-lub 
+    
+lub
+    
     relative_coordinates=[x,y,z]
+    
 Jest to punkt na który dron będzie skierowany.
+    
     angle=x
+    
 Jest to kąt (w stopniach) pod jakim dron będzie skierowany względem punktu.
 Przykład wywołania:
 `result = api.executeBehavior('LOOK_AT_POINT', coordinates=[4, 6.5, 3], angle=15)`
