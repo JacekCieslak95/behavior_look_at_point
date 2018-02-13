@@ -1,5 +1,8 @@
 # Behavior LookAtPoint
-Paczka tworzy behavior używany przez Aerostack (oprogramowanie grupy Vision4UAV: https://github.com/Vision4UAV/Aerostack)
+
+Read in [English]
+
+Paczka tworzy behavior używany przez [Aerostack] (oprogramowanie grupy [Vision4UAV])
 Behavior LookAtPoint powoduje, że dron obraca się frontem w kierunku zadanego punktu
 ### Instalacja ###
 1. Pliki niniejszego repozytorium należy umieścić w folderze 
@@ -67,5 +70,12 @@ Jest to punkt na który dron będzie skierowany.
     angle=x
     
 Jest to kąt (w stopniach) pod jakim dron będzie skierowany względem punktu.
+
 Przykład wywołania:
 `result = api.executeBehavior('LOOK_AT_POINT', coordinates=[4, 6.5, 3], angle=15)`
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+   [Polish]: <https://github.com/JacekCieslak95/behavior_look_at_point/blob/master/README.md>
+   [English]: <https://github.com/JacekCieslak95/behavior_look_at_point/blob/master/README_en.md>
+   [Aerostack]: <https://github.com/Vision4UAV/Aerostack>
+   [Vision4UAV]: <https://github.com/Vision4UAV>
